@@ -95,12 +95,21 @@ p,
 #linkfaleconosco {
     font-size: 15px;
     font-weight: 400;
-    color: #a6a7aa;
+    color: #ddd8d8;
     margin-bottom: 15px
 }
 
 .subclasse {
-    color: #ff363c !important;
+    color: #ddd8d8 !important;
+}
+
+.contato {
+    color: #d4d4d4 !important;
+}
+
+.content-contato {
+    padding-top: 50px;
+    padding-bottom: 70px
 }
 
 em,
@@ -915,7 +924,7 @@ fieldset[disabled] .btn-theme {
     left: 0;
     width: 9px;
     height: 2px;
-    background: #00b1f2;
+    background: #ffffff;
     opacity: 0;
     content: " ";
     transition-duration: .4s;
@@ -1483,6 +1492,11 @@ fieldset[disabled] .btn-theme {
     padding-bottom: 100px
 }
 
+.content-contato {
+    padding-top: 50px;
+    padding-bottom: 70px
+}
+
 .parallax-content {
     padding-top: 220px;
     padding-bottom: 120px
@@ -1553,6 +1567,10 @@ fieldset[disabled] .btn-theme {
 
 .margin-r-20 {
     margin-right: 20px!important
+}
+
+.margin-r-40 {
+    margin-right: 40px!important
 }
 
 .margin-b-0 {
