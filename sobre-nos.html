@@ -15,7 +15,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>Sobre Nós - Smart Protection</title>
+    <title>Sobre Nós - Almeida Cruz</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta content="width=device-width, initial-scale=1" name="viewport" />
     <meta content="" name="description" />
@@ -58,8 +58,8 @@
                     <!-- Logo -->
                     <div class="logo">
                         <a class="logo-wrap" href="index.html">
-                            <img class="logo-img logo-img-main" src="img/logo_sp_300px.png" alt="Smart Protection Logo">
-                            <img class="logo-img logo-img-active" src="img/logo_sp_300px.png" alt="Smart Protection Logo">
+                            <img class="logo-img logo-img-main" src="img/OTHERS/logo_almeida_cruz.png" alt="Alemida Cruz Logo">
+                            <img class="logo-img logo-img-active" src="img/OTHERS/logo_almeida_cruz.png" alt="Alemida Cruz Logo">
                         </a>
                     </div>
                     <!-- End Logo -->
@@ -68,13 +68,12 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse nav-collapse">
                     <div class="menu-container">
-                        <ul class="navbar-nav navbar-nav-right">
-                            <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="index.html">Home</a></li>
-                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#">Franquia</a></li>
+                        <ul class="navbar-nav navbar-nav-right" id="navbaractive">
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="index.html">Home</a></li>
                             <li class="nav-item"><a class="nav-item-child nav-item-hover" href="onde-encontrar.html">Onde Encontrar</a></li>
-                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="faq.html">FAQ</a></li>
-                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#faleconosco">Fale Conosco</a></li>
-                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#">Área do Cliente</a></li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="#faleconosco">Seja Um Representante</a></li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover active" href="sobre-nos.html">Sobre Nós</a></li>
+                            <li class="nav-item"><a class="nav-item-child nav-item-hover" href="suporte.html">Suporte</a></li>
                         </ul>
                     </div>
                 </div>
@@ -356,37 +355,13 @@
     <footer class="footer" id="faleconosco">
         <!-- Links -->
         <div class="footer-seperator">
-            <div class="content-lg container">
+            <div class="content-contato container">
                 <div class="row">
-                    <div class="col-sm-2 sm-margin-b-50">
-                        <!-- List -->
-                        <ul class="list-unstyled footer-list">
-                            <li class="footer-list-item"><a class="footer-list-link" href="http://keenthemes.com/">Home</a></li>
-                            <li class="footer-list-item"><a class="footer-list-link" href="http://keenthemes.com/">About</a></li>
-                            <li class="footer-list-item"><a class="footer-list-link" href="http://keenthemes.com/">Products</a></li>
-                            <li class="footer-list-item"><a class="footer-list-link" href="http://keenthemes.com/">Pricing</a></li>
-                            <li class="footer-list-item"><a class="footer-list-link" href="http://keenthemes.com/">Clients</a></li>
-                            <li class="footer-list-item"><a class="footer-list-link" href="http://keenthemes.com/">Careers</a></li>
-                            <li class="footer-list-item"><a class="footer-list-link" href="http://keenthemes.com/">Contact</a></li>
-                            <li class="footer-list-item"><a class="footer-list-link" href="http://keenthemes.com/">Terms</a></li>
-                        </ul>
-                        <!-- End List -->
-                    </div>
-                    <div class="col-sm-4 sm-margin-b-30">
-                        <!-- List -->
-                        <ul class="list-unstyled footer-list">
-                            <li class="footer-list-item"><a class="footer-list-link" href="http://keenthemes.com/">Twitter</a></li>
-                            <li class="footer-list-item"><a class="footer-list-link" href="http://keenthemes.com/">Facebook</a></li>
-                            <li class="footer-list-item"><a class="footer-list-link" href="http://keenthemes.com/">Instagram</a></li>
-                            <li class="footer-list-item"><a class="footer-list-link" href="http://keenthemes.com/">YouTube</a></li>
-                        </ul>
-                        <!-- End List -->
-                    </div>
-                    <div class="col-sm-5 sm-margin-b-30">
-                        <h2 class="color-white">Fale Conosco</h2>
+                    <div class="col-sm-12 sm-margin-b-30">
+                        <h1 class="contato">Seja Um Representante</h1>
                         <input type="text" class="form-control footer-input margin-b-20" placeholder="Nome" required>
                         <input type="email" class="form-control footer-input margin-b-20" placeholder="Email" required>
-                        <input type="text" class="form-control footer-input margin-b-20" onkeydown="javascript: fMasc( this, mTel );" name="tel" placeholder="Telefone" required maxlength="14">
+                        <input type="text" class="form-control footer-input margin-b-20" onkeydown="javascript: fMasc( this, mTel );" name="tel" placeholder="Celular" required maxlength="14">
                         <textarea class="form-control footer-input margin-b-30" rows="6" placeholder="Mensagem" required></textarea>
                         <button type="submit" class="btn-theme btn-theme-sm btn-base-bg text-uppercase">Enviar</button>
                     </div>
@@ -399,16 +374,19 @@
         <!-- Copyright -->
         <div class="content container">
             <div class="row">
-                <div class="col-xs-6">
-                    <img class="footer-logo" src="img/logo_sp_300px.png" alt="Smart Protection Logo">
+                <div class="col-xs-6" id="infofooter">
+                        <img class="footer-logo" src="img/OTHERS/logo_almeida_cruz.png" alt="Almeida Cruz Logo">
                 </div>
-                <div class="col-xs-6 text-right">
-                    <p class="margin-b-0"><a class="color-base fweight-700" href="http://keenthemes.com/preview/asentus/">Smart Protection</a> - Todos os direitos reservados <br/>Desenvolvido por <a class="color-base fweight-700" id="smartsolutions">Smart Solutions</a></p>
+                <div class="col-xs-6 text-right" id="infofooter">
+                    <p class="margin-b-0"><a class="color-almeida" href="">Almeida Cruz</a> - Todos os direitos reservados <br/>Desenvolvido por: <a class="color-base fweight-700" href="https://www.linkedin.com/in/gleysonsantos/" target="_blank">Gleyson Santos</a></p>
+                    <br/>
+                    <p class="margin-b-0">ALMEIDA CRUZ & CIA LTDA<br/>CNPJ 21.744.726/0001-09<br/>Av. João Paulino Vieria Filho, nº 964<br/> CEP 87013-040 - Maringá – PR.</p>
                 </div>
             </div>
             <!--// end row -->
         </div>
         <!-- End Copyright -->
+
     </footer>
     <!--========== END FOOTER ==========-->
 

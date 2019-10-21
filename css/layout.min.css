@@ -160,6 +160,10 @@ html a {
     color: #585858 !important;
 }
 
+.textoBranco {
+    color: #cacaca !important;
+}
+
 p,
 #linkfaleconosco {
     font-size: 15px;
