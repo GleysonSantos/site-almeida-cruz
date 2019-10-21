@@ -90,6 +90,75 @@ html,
 html a {
     -webkit-font-smoothing: antialiased
 }
+.slider {
+    display: block;
+    height: 300px;
+    width: 600px;
+    margin-left: 262px;
+    margin-top: 75px;
+    margin-bottom: 280px;
+    position: relative;
+    justify-content: center;
+}
+
+.slider li {
+    list-style: none;
+    position: absolute;
+}
+
+.slider img {
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    vertical-align: top;
+}
+
+.slider input {
+    display: none;
+}
+
+.slider label {
+    background-color: #ddb771;
+    bottom: -40px;
+    cursor: pointer;
+    display: block;
+    height: 15px;
+    position: absolute;
+    width: 15px;
+    z-index: 10;
+}
+
+.slider li:nth-child(1) label {
+    left: 10px;
+}
+
+.slider li:nth-child(2) label {
+    left: 40px;
+}
+
+.slider li:nth-child(3) label {
+    left: 70px;
+} 
+
+.slider img {
+    opacity: 0;
+    visibility: hidden;
+}
+
+.slider li input:checked ~ img {
+    opacity: 1;
+    visibility: visible;
+    z-index: 10;
+}    
+
+.centralizado {
+    display: flex;
+    justify-content: center;
+}
+
+.textoPreto {
+    color: #585858 !important;
+}
 
 p,
 #linkfaleconosco {
