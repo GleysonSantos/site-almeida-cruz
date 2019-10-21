@@ -1499,6 +1499,15 @@ fieldset[disabled] .btn-theme {
     font-weight: bold;
 }
 
+.color-almeida-simples{
+    color: #ddb771;
+}
+
+.color-black-bold{
+    color: #141414;
+    font-weight: bold;
+}
+
 .color-sky-light {
     color: #fafafa
 }
