@@ -258,24 +258,95 @@
         var smart02 = { lat: -23.421036, lng: -51.936676 };
         var smart01 = { lat: -23.420322, lng: -51.932960 };
         var ibcatacadista = {lat: -23.417043, lng: -51.941984 };
-        // The map, centered at Uluru
-        var map = new google.maps.Map(
-            document.getElementById('map'), { zoom: 15, center: smart02 });
-
-        var styles = {
-            default: null,
-            hide: [{
-                    featureType: 'poi.business',
-                    stylers: [{ visibility: 'off' }]
-                },
-                {
-                    featureType: 'transit',
-                    elementType: 'labels.icon',
-                    stylers: [{ visibility: 'off' }]
-                }
-            ]
-        };
-        map.setOptions({ styles: styles['hide'] });
+        // The map, centered at Uluru             
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: smart02, zoom: 15,
+          styles: [
+            {elementType: 'geometry', stylers: [{color: '#212121'}]},
+            {elementType: 'labels.text.stroke', stylers: [{color: '#212121'}]},
+            {elementType: 'labels.text.fill', stylers: [{color: '#757575'}]},
+            {
+              featureType: 'administrative.locality',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#ddb771'}]
+            },
+            {
+              featureType: 'poi',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#757575'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'geometry',
+              stylers: [{color: '#181818'}]
+            },
+            {
+              featureType: 'poi.park',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#616161'}]
+            },
+            {
+              featureType: 'poi.business',
+              stylers: [{visibility: 'off'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry',
+              stylers: [{color: '#2c2c2c'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#212a37'}]
+            },
+            {
+              featureType: 'road',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#8a8a8a'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry',
+              stylers: [{color: '#3c3c3c'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'geometry.stroke',
+              stylers: [{color: '#1f2835'}]
+            },
+            {
+              featureType: 'road.highway',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#f3d19c'}]
+            },
+            {
+              featureType: 'transit',
+              elementType: 'geometry',
+              stylers: [{color: '#2f3948'}]
+            },
+            {
+              featureType: 'transit.station',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#d59563'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'geometry',
+              stylers: [{color: '#17263c'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.fill',
+              stylers: [{color: '#515c6d'}]
+            },
+            {
+              featureType: 'water',
+              elementType: 'labels.text.stroke',
+              stylers: [{color: '#17263c'}]
+            }
+          ]
+        });
+        
 
         // The marker, positioned at Uluru
         var marker = new google.maps.Marker({ position: smart01, map: map });
