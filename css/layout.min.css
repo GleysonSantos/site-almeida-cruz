@@ -20,6 +20,8 @@ a:hover {
     outline: 0
 }
 
+
+
 .btn-theme:hover,
 .service .service-element,
 .service .service-info,
@@ -94,9 +96,10 @@ html a {
     display: block;
     height: 300px;
     width: 600px;
-    margin-left: 262px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 75px;
-    margin-bottom: 280px;
+    margin-bottom: 22%;
     position: relative;
     justify-content: center;
 }
@@ -332,6 +335,14 @@ a:hover {
     color: #fff;
 }
 
+iframe{
+    width: 600px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 @media (max-width:768px) {
     #cadastroForm {
         width: 90%;
@@ -367,6 +378,16 @@ a:hover {
     }
     #bannercadastro {
         background-image: url("../img/1920x1080/13.jpg");
+    }
+
+    iframe{
+        width: 100%;
+        height: 225px;
+    }
+
+    .slider {
+        width: 100%;
+        margin-bottom: 15%;
     }
 }
 
@@ -901,7 +922,7 @@ fieldset[disabled] .btn-theme {
 }
 
 .header .navbar-toggle:hover .toggle-icon {
-    background: #00b1f2;
+    background: #fff;
     transition-duration: .3s;
     transition-property: all;
     transition-timing-function: cubic-bezier(.7, 1, .7, 1)
@@ -911,7 +932,7 @@ fieldset[disabled] .btn-theme {
 .header .navbar-toggle:hover .toggle-icon:before {
     width: 21px;
     height: 1px;
-    background: #00b1f2;
+    background: #fff;
     transition-duration: .3s;
     transition-property: all;
     transition-timing-function: cubic-bezier(.7, 1, .7, 1)
@@ -1007,7 +1028,7 @@ fieldset[disabled] .btn-theme {
 
 @media (max-width:991px) {
     .header {
-        background: #fff
+        background: black;
     }
     .header .navbar-toggle {
         display: block
@@ -1044,7 +1065,7 @@ fieldset[disabled] .btn-theme {
         display: inline-block
     }
     .header .nav-item-child {
-        color: #515769;
+        color: #ddb771;
         line-height: 1.4;
         padding: 12px 12px 12px 15px
     }
@@ -1279,7 +1300,7 @@ fieldset[disabled] .btn-theme {
         padding-bottom: 30px !important;
     }
     #slide1 {
-        background-image: url("../img/1920x1080/08mobile.jpg") !important;
+        background-image: url("../img/1920x1080/hyper-shield.jpg") !important;
     }
     #textoslider {
         color: #fff;
@@ -1306,6 +1327,10 @@ fieldset[disabled] .btn-theme {
         display: block;
         padding-bottom: 15px;
     }  
+    .navbar-collapse nav-collapse collapse in{
+        background-color: wheat;
+    }
+
 }
 
 
