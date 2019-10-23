@@ -390,15 +390,139 @@
         
 
         // The marker, positioned at Uluru
-        var marker = new google.maps.Marker({ position: smart01, map: map });
-        var marker = new google.maps.Marker({ position: smart02, map: map });
-        var marker = new google.maps.Marker({ position: smart03, map: map });
-        var marker = new google.maps.Marker({ position: shopcell, map: map });
-        var marker = new google.maps.Marker({ position: mundial, map: map });
-        var marker = new google.maps.Marker({ position: ibcatacadista, map: map });
-        var marker = new google.maps.Marker({ position: flinstore, map: map });
-        var marker = new google.maps.Marker({ position: smartprime, map: map });
-        var marker = new google.maps.Marker({ position: fabiopereira, map: map });
+        var image = { 
+            url: 'img/OTHERS/maps.png',
+            size: new google.maps.Size(30, 30),
+            scaledSize: new google.maps.Size(30, 30)
+        };
+
+        var marker1 = new google.maps.Marker({
+            position: smart01,
+            map: map,
+            icon: image,
+            animation: google.maps.Animation.DROP
+        });
+        marker1.addListener('click', toggleBounce1);        
+        function toggleBounce1() {
+            if (marker1.getAnimation() !== null) {
+            marker1.setAnimation(null);
+            } else {
+            marker1.setAnimation(google.maps.Animation.BOUNCE);
+            }
+        }
+        var marker2 = new google.maps.Marker({
+            position: smart02,
+            map: map,
+            icon: image,
+            animation: google.maps.Animation.DROP
+        });
+        marker2.addListener('click', toggleBounce2);        
+        function toggleBounce2() {
+            if (marker2.getAnimation() !== null) {
+            marker2.setAnimation(null);
+            } else {
+            marker2.setAnimation(google.maps.Animation.BOUNCE);
+            }
+        }
+        var marker3 = new google.maps.Marker({
+            position: smart03,
+            map: map,
+            icon: image,
+            animation: google.maps.Animation.DROP
+        });
+        marker3.addListener('click', toggleBounce3);        
+        function toggleBounce3() {
+            if (marker3.getAnimation() !== null) {
+            marker3.setAnimation(null);
+            } else {
+            marker3.setAnimation(google.maps.Animation.BOUNCE);
+            }
+        }
+        var marker4 = new google.maps.Marker({
+            position: shopcell,
+            map: map,
+            icon: image,
+            animation: google.maps.Animation.DROP
+        });
+        marker4.addListener('click', toggleBounce4);        
+        function toggleBounce4() {
+            if (marke4r.getAnimation() !== null) {
+            marker4.setAnimation(null);
+            } else {
+            marker4.setAnimation(google.maps.Animation.BOUNCE);
+            }
+        }
+        var marker5 = new google.maps.Marker({
+            position: mundial,
+            map: map,
+            icon: image,
+            animation: google.maps.Animation.DROP
+        });
+        marker5.addListener('click', toggleBounce5);        
+        function toggleBounce5() {
+            if (marker5.getAnimation() !== null) {
+            marker5.setAnimation(null);
+            } else {
+            marker5.setAnimation(google.maps.Animation.BOUNCE);
+            }
+        }
+        var marker6 = new google.maps.Marker({
+            position: ibcatacadista,
+            map: map,
+            icon: image,
+            animation: google.maps.Animation.DROP
+        });
+        marker6.addListener('click', toggleBounce6);        
+        function toggleBounce6() {
+            if (marker6.getAnimation() !== null) {
+            marker6.setAnimation(null);
+            } else {
+            marker6.setAnimation(google.maps.Animation.BOUNCE);
+            }
+        }
+        var marker7 = new google.maps.Marker({
+            position: flinstore,
+            map: map,
+            icon: image,
+            animation: google.maps.Animation.DROP
+        });
+        marker7.addListener('click', toggleBounce7);        
+        function toggleBounce7() {
+            if (marker7.getAnimation() !== null) {
+            marker7.setAnimation(null);
+            } else {
+            marker7.setAnimation(google.maps.Animation.BOUNCE);
+            }
+        }
+        var marker8 = new google.maps.Marker({
+            position: smartprime,
+            map: map,
+            icon: image,
+            animation: google.maps.Animation.DROP
+        });
+        marker8.addListener('click', toggleBounce8);        
+        function toggleBounce8() {
+            if (marker8.getAnimation() !== null) {
+            marker8.setAnimation(null);
+            } else {
+            marker8.setAnimation(google.maps.Animation.BOUNCE);
+            }
+        }
+        var marker9 = new google.maps.Marker({
+            position: fabiopereira,
+            map: map,
+            icon: image,
+            animation: google.maps.Animation.DROP
+        });
+        marker9.addListener('click', toggleBounce9);        
+        function toggleBounce9() {
+            if (marker9.getAnimation() !== null) {
+            marker9.setAnimation(null);
+            } else {
+            marker9.setAnimation(google.maps.Animation.BOUNCE);
+            }
+        }
+
         }
     </script>
 
