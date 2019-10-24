@@ -388,6 +388,7 @@ iframe{
     .slider {
         width: 100%;
         margin-bottom: 15%;
+        padding-inline-start: 0% !important;
     }
 }
 
@@ -608,7 +609,7 @@ fieldset[disabled] .btn-theme {
 
 .footer .footer-seperator,
 .header .navbar {
-    border-bottom: 1px solid rgba(255, 255, 255, .2)
+    border-bottom: none !important;
 }
 
 .btn-theme-sm {
@@ -1299,6 +1300,8 @@ fieldset[disabled] .btn-theme {
     #contatolinha {
         padding-bottom: 30px !important;
     }
+
+
     #slide1 {
         background-image: url("../img/MOBILE/hyper-shield.jpg") !important;
     }
@@ -1311,12 +1314,28 @@ fieldset[disabled] .btn-theme {
     #slide4 {
         background-image: url("../img/MOBILE/x1.jpg") !important;
     }
+
+
+    #hyper-shield-mobile {
+        background-image: url("../img/MOBILE/hyper-shield-pag.jpg") !important;
+    }
+    #f1-mobile {
+        background-image: url("../img/MOBILE/f1-pag.jpg") !important;
+    }
+    #g-61-mobile {
+        background-image: url("../img/MOBILE/g-61-pag.jpg") !important;
+    }
+    #x1-mobile {
+        background-image: url("../img/MOBILE/x1-pag.jpg") !important;
+    }
+
+
     #textoslider {
         color: #fff;
     }
     .content-lg {
         padding-top: 60px !important;
-        padding-bottom: 60px !important;
+        padding-bottom: 100px !important;
     }
     .row {
         padding-top: 0 !important;
