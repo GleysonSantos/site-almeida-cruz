@@ -1300,7 +1300,16 @@ fieldset[disabled] .btn-theme {
         padding-bottom: 30px !important;
     }
     #slide1 {
-        background-image: url("../img/1920x1080/hyper-shield.jpg") !important;
+        background-image: url("../img/MOBILE/hyper-shield.jpg") !important;
+    }
+    #slide2 {
+        background-image: url("../img/MOBILE/f1.jpg") !important;
+    }
+    #slide3 {
+        background-image: url("../img/MOBILE/g-61.jpg") !important;
+    }
+    #slide4 {
+        background-image: url("../img/MOBILE/x1.jpg") !important;
     }
     #textoslider {
         color: #fff;
